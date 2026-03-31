@@ -1,0 +1,51 @@
+{
+  "name": "astrologjs",
+  "version": "0.1.0",
+  "description": "Astrolog astrology calculation engine ported to JavaScript/TypeScript",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint src/",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "astrology",
+    "astrolog",
+    "horoscope",
+    "natal-chart",
+    "swiss-ephemeris",
+    "zodiac",
+    "planets",
+    "houses",
+    "aspects"
+  ],
+  "license": "GPL-2.0-only",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/genya/astrologjs"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^3.2.4",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  },
+  "dependencies": {
+    "swisseph-wasm": "^0.0.5"
+  }
+}

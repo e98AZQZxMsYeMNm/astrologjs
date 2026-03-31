@@ -1,0 +1,54 @@
+NOTICE – Third-Party Copyright Notices
+
+This software is based on Astrolog and incorporates code derived from the
+following sources. All notices below must be preserved unmodified in any
+altered or distributed versions of this program, as required by each
+respective copyright holder.
+
+=============================================================================
+Astrolog
+=============================================================================
+
+Astrolog (Version 7.80) and all chart display routines and anything not
+enumerated below used in this program are Copyright (C) 1991-2025 by
+Walter D. Pullen (Astara@msn.com, http://www.astrolog.org/astrolog.htm).
+Permission is granted to freely use, modify, and distribute these routines
+provided these credits and notices remain unmodified with any altered or
+distributed versions of the program.
+
+=============================================================================
+Swiss Ephemeris
+=============================================================================
+
+The main ephemeris databases and calculation routines are from the library
+SWISS EPHEMERIS and are programmed and copyright 1997-2008 by Astrodienst AG.
+Use of that source code is subject to license for Swiss Ephemeris Free Edition
+at https://www.astro.com/swisseph/swephinfo_e.htm.
+This copyright notice must not be changed or removed by any user of this
+program.
+
+=============================================================================
+PLACALC
+=============================================================================
+
+Additional ephemeris databases and formulas are from the calculation routines
+in the program PLACALC and are programmed and Copyright (C) 1989,1991,1993
+by Astrodienst AG and Alois Treindl (alois@astro.ch). The use of that source
+code is subject to regulations made by Astrodienst Zurich, and the code is
+not in the public domain. This copyright notice must not be changed or removed
+by any user of this program.
+
+Note: AstrologJS uses swisseph-wasm (Swiss Ephemeris) for all ephemeris
+calculations and does not directly incorporate PLACALC source code. The above
+notice is preserved as required by the Astrolog license, which carries it
+throughout all derivative works.
+
+=============================================================================
+Original Planetary Calculation Routines
+=============================================================================
+
+The original planetary calculation routines used in this program have been
+copyrighted and the initial core of this program was mostly a conversion to C
+of the routines created by James Neely as listed in 'Manual of Computer
+Programming for Astrologers', by Michael Erlewine, available from Matrix
+Software.
